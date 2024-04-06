@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo img{
+    margin-top: 24px;
+    margin-left: 32px;
+    width: 130px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.zeblo img{
+    margin-top: 82px;
+    margin-left: 32px;
+    width: 285px;
+}
+
+.zeblo1{
+    height: 580px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 94px;
+    width: 99%;
+    position: absolute;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: -438px;
+    left: 500px;
+    width: 740px;
+    height: 440px;
+}
+
+.tex{
+    position: absolute;
+    margin-top: 744px;
+    margin-left: 69px;
+}
+
+.tex p{
+    padding: 4px 46px;
+}
+
+.tex h1{
+    margin-top: 50px;
+    font-size: large;
+    padding: 4px 46px;
+}

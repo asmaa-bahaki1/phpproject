@@ -1,0 +1,88 @@
+.rend {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rend > img {
+    width: 100%;
+}
+
+.rend.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.logo img{
+    margin-top: 24px;
+    margin-left: 32px;
+    width: 130px;
+    cursor: pointer;
+    position: absolute
+}
+
+.icon img{
+    margin-top: 87px;
+    width: 100%;
+}
+
+.movies{
+    background-color: #000;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: 80px;
+    height: 778px;
+    padding: 7px;
+}
+
+.movies h1{
+    color: white;
+    margin-top: 36px;
+    margin-left: 50px;
+}
+
+.films{
+    float: left;
+    padding: 4px 46px;
+}
+
+.films img{
+    margin-top: 3px;
+    cursor: pointer;
+    margin-left: -9px;
+    padding: 24px;
+    width: 200px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+    height: 290px;
+}
+
+.films img:hover{
+    transform: translate(-40px, -40px);
+    opacity: 4.2;
+    width: 220px;
+    height: 300px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    transform: scale(0.95);
+    transition: transform 0.3s ease-in-out;
+}
